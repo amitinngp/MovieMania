@@ -1,0 +1,51 @@
+.details-container {  
+    height: 100vh;
+    border-radius:0 0 10px 10px;
+    background-image: linear-gradient(109deg, rgba(75, 75, 75, 0.03) 0%, rgba(75, 75, 75, 0.03) 36%,rgba(5, 5, 5, 0.03) 36%, rgba(5, 5, 5, 0.03) 60%,rgba(230, 230, 230, 0.03) 60%, rgba(230, 230, 230, 0.03) 76%,rgba(204, 204, 204, 0.03) 76%, rgba(204, 204, 204, 0.03) 83%,rgba(30, 30, 30, 0.03) 83%, rgba(30, 30, 30, 0.03) 91%,rgba(119, 119, 119, 0.03) 91%, rgba(119, 119, 119, 0.03) 96%,rgba(27, 27, 27, 0.03) 96%, rgba(27, 27, 27, 0.03) 100%),linear-gradient(357deg, rgba(159, 159, 159, 0.03) 0%, rgba(159, 159, 159, 0.03) 7%,rgba(227, 227, 227, 0.03) 7%, rgba(227, 227, 227, 0.03) 26%,rgba(204, 204, 204, 0.03) 26%, rgba(204, 204, 204, 0.03) 28%,rgba(181, 181, 181, 0.03) 28%, rgba(181, 181, 181, 0.03) 34%,rgba(138, 138, 138, 0.03) 34%, rgba(138, 138, 138, 0.03) 36%,rgba(44, 44, 44, 0.03) 36%, rgba(44, 44, 44, 0.03) 74%,rgba(130, 130, 130, 0.03) 74%, rgba(130, 130, 130, 0.03) 100%),linear-gradient(132deg, rgba(191, 191, 191, 0.03) 0%, rgba(191, 191, 191, 0.03) 24%,rgba(174, 174, 174, 0.03) 24%, rgba(174, 174, 174, 0.03) 31%,rgba(19, 19, 19, 0.03) 31%, rgba(19, 19, 19, 0.03) 42%,rgba(242, 242, 242, 0.03) 42%, rgba(242, 242, 242, 0.03) 70%,rgba(131, 131, 131, 0.03) 70%, rgba(131, 131, 131, 0.03) 75%,rgba(167, 167, 167, 0.03) 75%, rgba(167, 167, 167, 0.03) 77%,rgba(64, 64, 64, 0.03) 77%, rgba(64, 64, 64, 0.03) 100%),linear-gradient(90deg, rgb(245, 198, 84),rgb(209, 69, 18));
+    padding: 20px;
+    font-family: cursive;
+    font-size: large;
+    text-align: center;
+  }
+ 
+  .details-poster{
+   width:300px;
+   border-top-right-radius: 10px 10px;
+   border-top-left-radius: 10px 10px;
+   margin-top: 68px;
+   box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+
+  }
+  .details-holder a {
+    text-decoration: none !important;
+    color:black;
+  }
+  
+  .poster-group{
+    display: flex;
+  }
+  .detail-group{
+    margin-top:200px;
+    margin-left:200px;
+  }
+  .details-Plot{
+    word-wrap: break-word;
+  }
+
+  .back-Home{
+    width: 119px;
+    text-align: center;
+    color: black;
+    margin-left: 394px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 40px;
+  }

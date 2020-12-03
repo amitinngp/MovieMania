@@ -1,0 +1,79 @@
+.header-logo {
+  width: 200px;
+  height: 100px;
+  background-size: 100px 100px;
+}
+.header-nav {
+  display: flex;
+}
+.header-menus {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+}
+.header-li {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.header-menu-div {
+  width: 100%;
+}
+.header-menu-div ul {
+  width: 70%;
+  margin: auto;
+  border-bottom-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-top-left-radius: 20px 20px;
+  padding-bottom: 10px;
+  box-shadow: 0 10px 2.2px rgba(0, 0, 0, 0.023),
+    0 17.4px 5.3px rgba(0, 0, 0, 0.033), 0 23.5px 10px rgba(0, 0, 0, 0.04),
+    0 29.8px 17.9px rgba(0, 0, 0, 0.048), 0 39.3px 33.4px rgba(0, 0, 0, 0.058),
+    0 69px 80px rgba(0, 0, 0, 0.07);
+}
+.header-menu-div li {
+  width: 33%;
+  margin-top: 40px;
+  font-family: cursive;
+  font-size: large;
+  text-align: center;
+}
+
+.header-menu-div li {
+  display: inline-block;
+  color:#100610;
+  font-weight: 900;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  position: relative;
+}
+
+.header-menu-div li::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #17f070;
+  transition: width 0.3s;
+  position: absolute;
+}
+.header-menu-div li:hover::after {
+  width: 100%;
+}
+.header-menu-div li:hover {
+  text-decoration: none;
+  color: #17f070;
+  transition: color 0.5s;
+  cursor: pointer;
+}
+.header-li a{
+  text-decoration: none !important;
+  color:#100610;
+}
+
+.header-li a:hover::after{
+  color: #17f070;
+}
+.header-li a:hover{
+  color: #17f070;
+}
