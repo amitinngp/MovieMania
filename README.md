@@ -1,0 +1,2 @@
+# MovieMania
+TypeScript + React+ Redux
