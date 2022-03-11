@@ -1,6 +1,6 @@
 # Starting App
 
-### install 
+### install -
 ```
 npm install
 ```
